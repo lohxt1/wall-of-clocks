@@ -32,24 +32,14 @@ const Header: React.FC = () => {
           "z-10",
         )}
       >
-        <div
-          className={cn(
-            "flex w-full items-center justify-between align-middle",
-            " px-2",
-            "font-medium",
-          )}
-        >
+        <div className={cn("flex w-full items-center justify-between align-middle", " px-2", "font-medium")}>
           <div className={cn("flex items-center")}>
             {/* <label className={cn("text-sm")}>Hello,&nbsp;</label>
             <label className={cn("text-sm", "underline decoration-dashed")}>
               stranger
             </label> */}
-            <GithubStar />
-            <a
-              href="https://lohxt.space"
-              target="_blank"
-              className={cn("text-sm", "underline decoration-dashed")}
-            >
+            <GithubStar star={true} />
+            <a href="https://lohxt.space" target="_blank" className={cn("text-sm", "underline decoration-dashed")}>
               lohxt.space
             </a>
           </div>
@@ -65,13 +55,7 @@ const Header: React.FC = () => {
             onClick={_handleModeClick}
           >
             {currentTheme != "dark" ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                className="h-5 w-5"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="h-5 w-5">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -80,13 +64,7 @@ const Header: React.FC = () => {
                 ></path>
               </svg>
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                className="h-5 w-5"
-              >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="h-5 w-5">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
