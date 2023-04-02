@@ -36,8 +36,8 @@ To run the code locally, open _Terminal_ in your `projects` folder and take the 
 
 ```bash
 # STEP 1: Get sources from GitHub
-$ git clone https://github.com/lohxt1/layoutsI.git
-$ cd layoutsI
+$ git clone https://github.com/lohxt1/wall-of-clocks.git
+$ cd wall-of-clocks
 
 # STEP 2: Install the requirements
 $ npm install
