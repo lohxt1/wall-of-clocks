@@ -4,13 +4,10 @@
 <img align="center" src="https://lohxt1.github.io/_assets/grids1.png" alt="grids I"/>
 <br />
 <br />
-<video autoplay loop>
-  <source src="https://lohxt1.github.io/_assets/grids11.mov">
-</video>
+<img align="center" src="https://lohxt1.github.io/_assets/grids11.gif" alt="grids I"/>
 <br />
-<video autoplay loop>
-  <source src="https://lohxt1.github.io/_assets/grids12.mov">
-</video>
+<br />
+<img align="center" src="https://lohxt1.github.io/_assets/grids12.gif" alt="grids I"/>
 <h1>
 wall-of-clocks
 </h1>
