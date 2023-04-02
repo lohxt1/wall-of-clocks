@@ -26,7 +26,7 @@ const Clock = (props) => {
   return (
     <motion.div initial="initial" animate="visible" exit="exit" whileHover="hover" variants={baseVariant}>
       <motion.div
-        className={cn("absolute top-[-50px] left-0 flex w-full flex-col justify-between", "text-gray-600 dark:text-gray-400")}
+        className={cn("absolute top-[-50px] left-0 flex w-full flex-col justify-between", "pointer-events-none text-gray-600 dark:text-gray-400")}
         variants={clockTextVariant}
       >
         <div className="flex w-full flex-row items-center justify-between">
@@ -35,7 +35,7 @@ const Clock = (props) => {
         </div>
       </motion.div>
       <motion.div
-        className={cn("absolute bottom-[-50px] left-0 flex w-full flex-col justify-between", "text-gray-600 dark:text-gray-400")}
+        className={cn("absolute bottom-[-50px] left-0 flex w-full flex-col justify-between", "pointer-events-none text-gray-600 dark:text-gray-400")}
         variants={clockTextVariant}
       >
         <div className="flex w-full flex-row items-center justify-between">
